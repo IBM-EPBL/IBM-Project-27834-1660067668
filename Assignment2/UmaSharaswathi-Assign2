@@ -1,1 +1,9 @@
-
+import random
+while(True):
+    temp=random.randrange(0,100)
+    print(temp)
+    humid=random.randrange(0,100)
+    print(humid)
+    if (temp>90 or temp<80) and humid>60:
+        print("This temp is dangerious ",temp )
+        print("this humidity is dangerous",humid)
